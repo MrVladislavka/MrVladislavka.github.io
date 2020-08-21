@@ -1,0 +1,132 @@
+        BODY
+        {
+        margin:10px; /* зовнішній відступ*/
+        padding:10px; /* внутрішній відступ*/
+        color: FF0000; /* колір тексту*/
+        background: white; /* колір тла */
+        background-color: rgba(0, 247, 255, 0.514);
+        background-attachment: fixed;
+        }
+        H1, H2, H3, H4, H5, H6 /* колір та розміщення
+        заголовків*/
+        {
+        color: #009900;
+        margin: 0px; /* зовнішній відступ*/
+        padding: 0px; /* внутрішній відступ*/
+        }
+        h1 {
+                position:absolute;
+                Top: 100px;
+		left: 300px;
+                border-top-width: thick;
+                border-top-style: solid;
+                border-top-color: red;
+                border-bottom-width:thick;
+                border-bottom-style:solid;
+                border-bottom-color: blue;
+                border-right-width: thick;
+                border-right-style: solid;
+                border-right-color: green;
+                border-left-width: thick;
+                border-left-style: solid;
+                border-left-color: orange;
+                background: yellow;
+                padding: 20px 20px 20px
+                80px;
+            }
+        H2 /*- Заголовок ІІ рівня*/
+        {
+        font-size: 1.2em;
+        color: #FC9804;
+        background-color: #990000;
+        padding-left:120px;
+        }
+        H3 /*- Заголовок ІІI рівня*/
+        {
+        font-size: 0.8em;
+        font-family: arial, verdana, sans-serif;
+        }
+        H4 /*- Заголовок ІV рівня*/
+        {
+        font-size: 0.6em;
+        font-family: "Times New Roman", serif; font-style:italic;
+        }
+        H5 /*- Заголовок V рівня*/
+        {
+        font-size: 0.4em;
+        font-variant: small-caps;
+        
+        }
+        H6 /*- Заголовок VI рівня*/
+        {
+        font-size: 0.3em;
+        font-variant: normal;
+        }
+        P /*- Оформлення абзацу*/
+        {
+        font: italic bold 30px arial, sans-serif;
+        }
+        td {font-family: arial, verdana, sans-serif; font-weight: bold;}
+        div.box {
+                height: 500px;
+                width: 200px;
+                border: 1px solid black;
+                background: orange;
+            }
+            #picture {
+                float:left;
+                width: 100px;
+                }
+                .floatstop {
+                clear:both;
+                }    
+                #column1 {
+                        position:absolute;
+                        top: 10px;
+                        left: 500px;
+                        border-width: thick;
+                        border-style: dotted;
+                        border-color: gold;
+                        }
+                        #column2 {
+                        position:absolute;
+                        top: 150px;
+                        right: 600px;
+                        border-width: thick;
+                        border-style: dotted;
+                        border-color: gold;
+                        }
+                        #column3 {
+                        position:absolute;
+                        top: 220px;
+                        right: 603px;
+                        border-width: thick;
+                        border-style: dotted;
+                        border-color: gold;
+                        }
+                        #column4 {
+                        position:absolute;
+                        bottom: 50px;
+                        left: 50px;
+                        border-width: thick;
+                        border-style: dotted;
+                        border-color: gold;
+                        }
+                        #column5 {
+                        position:relative;;
+                        top: 150px;
+                        left: 150px;
+                        border-width: thick;
+                        border-style: dotted;
+                        border-color: gold;
+                        }
+table {
+ position: absolute;
+ top:250px;
+ right:25px;
+}
+img{
+        position: absolute;
+        top: 150px;
+        left:100px;
+}
